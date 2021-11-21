@@ -55,13 +55,13 @@ class GUI:
         self.submitXpath = StringVar()  # 提交按钮的xpath
         self.submitFile = []  # 提交按钮列表
         self.proxy = []
-        if proxy != []:
+        if proxy != [""]:
             self.proxyFile = proxy  # 浏览器代理的ip地址池
         else:
             self.proxyFile = []
           # 浏览器代理的ip地址池(文件批量）
         self.chromedriver = StringVar()  # chromedriver.exe的路径
-        if chromePath != []:
+        if chromePath != [""]:
             self.chromedriverFile = chromePath
         else:
             self.chromedriverFile = []  # chromedriver.exe的路径(通过文件选择）
@@ -363,14 +363,10 @@ class GUI:
             else:
                 self.submitXpath = entryXpathSubmit.get()
                 self.submitFile.append(self.submitXpath.strip())
-            if proxy != [""]:
-                self.proxyFile.append(proxy[0])
             if self.proxyFile == []:
                 if entryProxy.get() != '':
                     self.proxy = entryProxy.get()
                     self.proxyFile.append(self.proxy.strip())
-            if chromePath != [""]:
-                self.chromedriverFile.append(chromePath[0])
             if self.chromedriverFile == []:
                 if entryChromeDriver.get() != '':
                     self.chromedriver = entryChromeDriver.get()
