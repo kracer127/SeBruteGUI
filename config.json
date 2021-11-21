@@ -1,5 +1,5 @@
 {
   "captcha": ["",""],
-  "proxy": [],
-  "chromePath": []
+  "proxy": [""],
+  "chromePath": [""]
 }

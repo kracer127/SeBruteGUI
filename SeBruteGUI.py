@@ -363,10 +363,14 @@ class GUI:
             else:
                 self.submitXpath = entryXpathSubmit.get()
                 self.submitFile.append(self.submitXpath.strip())
+            if proxy != [""]:
+                self.proxyFile.append(proxy[0])
             if self.proxyFile == []:
                 if entryProxy.get() != '':
                     self.proxy = entryProxy.get()
                     self.proxyFile.append(self.proxy.strip())
+            if chromePath != [""]:
+                self.chromedriverFile.append(chromePath[0])
             if self.chromedriverFile == []:
                 if entryChromeDriver.get() != '':
                     self.chromedriver = entryChromeDriver.get()
