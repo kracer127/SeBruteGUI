@@ -50,7 +50,7 @@ pip3 install -r requirements.txt
 
 **1、程序打开：**
 
-<img src="\imgs\open.png" alt="operating" style="zoom:80%;" />
+<img src=".\imgs\open.png" alt="operating" style="zoom:80%;" />
 
 **2、程序运行：**
 
