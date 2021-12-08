@@ -72,7 +72,7 @@ pip3 install -r requirements.txt
 
 2、如何使用验证码识别模块：
 
-​	① 到[快识别]([图片识别-打码平台-打码网站-识别验证码-图鉴网络科技有限公司](http://www.kuaishibie.cn/))官网注册账号，并充值购买<10块够你用啦>。
+​	① 到[快识别]([图片识别-打码平台-打码网站-识别验证码-图鉴网络科技有限公司](http://www.kuaishibie.cn/))官网注册账号，并充值购买<10块够你用啦>。http://www.kuaishibie.cn/
 
 ​	② 到config.json文件中填入您的账号密码 --- "captcha": ["账号","密码"]。
 
